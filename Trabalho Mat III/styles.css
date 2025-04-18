@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+
+:root {
+    --laranja-claro: #1b1b1a;
+}
+
+
+body {
+    font-size: 1.5rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-image: linear-gradient(rgb(196, 235, 245), rgb(74, 88, 102), rgb(21, 78, 64));
+}
+
+header {
+    background-image: url(img/imagem.jpg);
+}
+
+
+.nav-link {
+    color: #887655;
+    font-weight: 1000;
+}
+
+.inicio-fundo {
+    /* aula 3 */
+    background-image: url('img/4965007.jpg');
+    /* Substitua pelo caminho da sua imagem */
+    background-size: cover;
+    background-position: right;
+    border-radius: 80px;
+    width: 100%;
+    height: 600px;
+    padding: 50px;
+    margin: 0 auto;
+}
+
+/* posicionamento para a imagem à direita */
+.img-inicio {
+    position: absolute;
+    right: 0;
+    top: 18rem;
+    width: 45rem;
+    height: auto;
+}
+
+
+.esquerda-conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    gap: 0.5rem;
+}
+
+
+.botao-inicio {
+    background-image: url(img/fundo.png);
+    background-position: center;
+    background-size:500px;
+    border-radius: 10px;
+    border: none;
+    width: 14em;
+    /* Convertido para em aumenta o tamanho da fonte por tabela*/
+    height: 3em;
+    /* Convertido para em */
+    align-content: center;
+
+}
+
+.display-4 {
+    text-shadow: -5px 5px var(--laranja-claro);
+}
+
+
+#tropicalia {
+    position: relative;
+    padding-top: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    background: url('img/flor.png') center no-repeat;
+    background-size:cover;
+    background-image:url(img/outra.jpg);
+    /* Ajuste o tamanho conforme necessário */
+}
+
+#tropicalia .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    /* Garante que o conteúdo fica acima das imagens do background */
+}
+
+
+h2 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+    font-style: normal;
+    color: var(--laranja-claro);
+}
+
+#galeria {
+    background-image: linear-gradient(rgb(84, 185, 211), rgb(114, 175, 190), rgb(39, 139, 123));
+
+}
+
+
+#contato {
+    background-image: linear-gradient(rgb(39, 139, 123), rgb(29, 92, 81));
+    background-size: cover;
+    padding: 1rem 0;
+    /* Espaçamento interno para a seção de contato */
+
+}
+
+.formulario {
+    background-color:rgb(49, 196, 171);
+    padding: 3rem;
+    /* Espaçamento interno dentro do formulário */
+    border-radius: 10px;
+    /* Borda arredondada para o formulário */
+    box-shadow: 0 0 10px rgba(31, 31, 31, 0.1);
+    /* Sombra suave para destacar o formulário */
+    font-weight: bold;
+}
+
+.formulario button {
+    background-color: #0b3a2a;
+    border: none;
+    font-weight: bold;
+}
+
+/* chama classe do bootstrap para modificar a cor */
+.form-control {
+    background-color: #bef0e5;
+}
